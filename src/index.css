@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.form-panel {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  min-height: 400px;
+  border: 1px solid #ddd;
+}
+
+.sidebar-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.form-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.required {
+  color: red;
+}
